@@ -15,8 +15,8 @@ const TopFlights = () => {
       </Row>
       <Row>
         <Col>
-          <Card className="rounded">
-            <Card.Title className="custom-bg-y2 rounded">Card Title</Card.Title>
+          <Card className="rounded p-3 custom-bg">
+            <Card.Title className="custom-bg-y2 rounded p-2">Card Title</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -26,8 +26,8 @@ const TopFlights = () => {
           </Card>
         </Col>
         <Col>
-          <Accordion defaultActiveKey="0" className="rounded">
-            <Accordion.Item eventKey="0">
+          <Accordion defaultActiveKey="0" className="rounded" className="custom-bg-y1">
+            <Accordion.Item eventKey="0" className="custom-bg">
               <Accordion.Header>
                 <Container>
                   <Row>
@@ -43,7 +43,7 @@ const TopFlights = () => {
                 London depature--------------------> arrival
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
+            <Accordion.Item eventKey="1" className="custom-bg">
               <Accordion.Header>
                 <Container>
                   <Row>
@@ -59,7 +59,7 @@ const TopFlights = () => {
                 London depature--------------------> arrival
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2">
+            <Accordion.Item eventKey="2" className="custom-bg">
               <Accordion.Header>
                 <Container>
                   <Row>
@@ -75,7 +75,7 @@ const TopFlights = () => {
                 London depature--------------------> arrival
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="3">
+            <Accordion.Item eventKey="3" className="custom-bg">
               <Accordion.Header>
                 <Container>
                   <Row>

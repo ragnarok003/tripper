@@ -20,9 +20,10 @@ const SearchFlights = () => {
               <Row>
                 <Col>
                   <p>
-                    <h6>TRAVEL WITH US</h6>
-                    <h1>DISCOVER </h1>
-                    <h6>THE WORLD</h6>
+                    <h3>TRAVEL WITH US</h3>
+                    <h3>
+                      <strong>DISCOVER</strong>  THE WORLD
+                    </h3>
                   </p>
                 </Col>
                 <Col>

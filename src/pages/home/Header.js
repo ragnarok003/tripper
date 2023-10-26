@@ -8,7 +8,7 @@ const Header = () => {
     <Container className="mt-5">
       <Row>
         <Col>
-          <img src={logo} alt="" srcset="" />
+          <a href="/"><img src={logo} alt="" srcset="" /></a>
         </Col>
         <Col sm={4}>
           <Form className="d-flex">
@@ -22,11 +22,13 @@ const Header = () => {
             <Button variant="outline-dark"><BsSearch /></Button>
           </Form>
         </Col>
-        <Col sm={1}>Home</Col>
+        <Col sm={1}><a href="/">Home</a></Col>
         <Col sm={1}>Flights</Col>
 
         <Col sm={1}>
-          <AiOutlineUser />
+          <a href="/account">
+            <AiOutlineUser />
+          </a>
         </Col>
       </Row>
     </Container>
