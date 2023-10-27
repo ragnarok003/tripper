@@ -9,7 +9,7 @@ const Content = () => {
    <Container className='mt-5'>
    <Nav variant="underline" defaultActiveKey="/home">
      <Nav.Item>
-       <Nav.Link href="/account/generalinfo">General Info</Nav.Link>
+       <Nav.Link href="/account/">General Info</Nav.Link>
      </Nav.Item>
      <Nav.Item>
        <Nav.Link eventKey="link-1" href='/account/orders'>Orders</Nav.Link>
