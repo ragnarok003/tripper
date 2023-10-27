@@ -8,7 +8,7 @@ import {FaGooglePay} from "react-icons/fa"
 import { Container, Card, Col, Row, Button } from "react-bootstrap";
 const Footer = () => {
   return (
-    <Container className='mt-5 custom-bg-b px-5 py-3 text-white'>
+    <div className='mt-5 custom-bg-b px-5 py-3 text-white'>
       <Row>
          <Col>
                {/* <Row><img src={logo} alt="" /></Row> */}
@@ -25,6 +25,8 @@ const Footer = () => {
          <Col>
                <Row>Quick Links</Row>
                <Row>Flights</Row>
+               <Row><a href="/">Home</a></Row>
+               <Row><a href="/account">Account</a></Row>
          </Col>
       </Row>
       <Row>
@@ -32,7 +34,7 @@ const Footer = () => {
          <Col>Copyright 2023 Tripper</Col>
          <Col><BiLogoVisa /><RiMastercardLine /> <SlPaypal /> <FaGooglePay /></Col>
       </Row>
-    </Container>
+    </div>
   )
 }
 
