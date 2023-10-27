@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='mt-5 custom-bg-b px-5 py-3 text-white'>
       <Row>
          <Col>
-               {/* <Row><img src={logo} alt="" /></Row> */}
+               <Row><img src={logo} alt="" style={{width:'200px'}}/></Row>
                <Row>s2,173,paranjothi street,valasaravakkam,chennai-87</Row>
                <Row>210701202@rajalakshmi.edu.in</Row>
                <Row>+91 9344625950</Row>
