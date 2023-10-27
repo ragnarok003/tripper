@@ -15,9 +15,7 @@ const Content = () => {
        <Nav.Link eventKey="link-1" href='/account/orders'>Orders</Nav.Link>
      </Nav.Item>
      <Nav.Item>
-       <Nav.Link eventKey="disabled" disabled>
-         Disabled
-       </Nav.Link>
+       <Nav.Link eventKey="link-2" href='/account/bookings'>Bookings</Nav.Link>
      </Nav.Item>
    </Nav>
  </Container>
