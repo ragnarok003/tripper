@@ -3,7 +3,6 @@ import Header from './Header'
 import SearchFlights from './SearchFlights'
 import TopFlights from './TopFlights'
 import WhyUs from './WhyUs'
-import SpecialDeals from './SpecialDeals'
 import OurCustomerSay from './OurCustomerSay'
 import FAQ from './FAQ'
 import Footer from './Footer'
@@ -15,7 +14,6 @@ const HomePage = () => {
        <SearchFlights />
        <TopFlights />
        <WhyUs />
-       <SpecialDeals />
        <OurCustomerSay />
        <FAQ />
        <Footer />

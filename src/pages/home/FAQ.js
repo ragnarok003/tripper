@@ -20,7 +20,8 @@ const FAQ = () => {
           <Accordion.Item eventKey="1" className="custom-bg">
             <Accordion.Header className="custom-bg">Can i cancel my booking?</Accordion.Header>
             <Accordion.Body className="custom-bg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Contact the airline's customer service.
+            Follow the cancellation process, provide your booking details, and confirm the cancellation.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

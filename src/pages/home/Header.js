@@ -10,18 +10,6 @@ const Header = () => {
         <Col>
           <a href="/"><img src={logo} alt="" srcset="" /></a>
         </Col>
-        <Col sm={4}>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2 custom-bg "
-              aria-label="Search"
-              variant="outline-dark"
-            />
-            <Button variant="outline-dark"><BsSearch /></Button>
-          </Form>
-        </Col>
         <Col sm={1}><a href="/">Home</a></Col>
         <Col sm={1}>Flights</Col>
 

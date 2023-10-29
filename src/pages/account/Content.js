@@ -12,9 +12,6 @@ const Content = () => {
        <Nav.Link href="/account/">General Info</Nav.Link>
      </Nav.Item>
      <Nav.Item>
-       <Nav.Link eventKey="link-1" href='/account/orders'>Orders</Nav.Link>
-     </Nav.Item>
-     <Nav.Item>
        <Nav.Link eventKey="link-2" href='/account/bookings'>Bookings</Nav.Link>
      </Nav.Item>
    </Nav>
